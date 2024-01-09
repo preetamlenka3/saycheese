@@ -4,9 +4,7 @@ ssh keys, see https://www.ssh.com/academy/ssh/keygen. Once you've generated a ke
 try again, and these instructions will be replaced with instructions on how to
 register your key with serveo.
 
-[0m[32mForwarding HTTP traffic from https://94354b8a3e0548d9875eaac86ceb0267.serveo.net
-[0mHTTP request from 150.129.89.96 to https://94354b8a3e0548d9875eaac86ceb0267.serveo.net/index2.html
-HTTP request from 150.129.89.96 to https://94354b8a3e0548d9875eaac86ceb0267.serveo.net/images/favicon.ico
-HTTP request from 150.129.89.96 to https://94354b8a3e0548d9875eaac86ceb0267.serveo.net/
-HTTP request from 150.129.89.96 to https://94354b8a3e0548d9875eaac86ceb0267.serveo.net/index2.html
-HTTP request from 150.129.89.96 to https://94354b8a3e0548d9875eaac86ceb0267.serveo.net/index2.html
+[0m[32mForwarding HTTP traffic from https://40043b9ecb6360b658720b819c1a8d8d.serveo.net
+[0mHTTP request from 150.129.89.96 to https://40043b9ecb6360b658720b819c1a8d8d.serveo.net/index2.html
+HTTP request from 150.129.89.96 to https://40043b9ecb6360b658720b819c1a8d8d.serveo.net/path/to/image1.jpg
+HTTP request from 150.129.89.96 to https://40043b9ecb6360b658720b819c1a8d8d.serveo.net/favicon.ico

